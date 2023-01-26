@@ -2,9 +2,9 @@ import { Component } from 'react';
 import { nanoid } from 'nanoid';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-import PhoneBookList from '../PhoneBookList/PhoneBookList';
-import PhoneBookFilter from '../PhoneBookFilter/PhoneBookFilter';
-import PhoneBooksForm from '../PhoneBookForm/PhoneBookForm';
+import PhoneBookList from 'components/PhoneBookList/PhoneBookList';
+import PhoneBookFilter from 'components/PhoneBookFilter/PhoneBookFilter';
+import PhoneBooksForm from 'components/PhoneBookForm/PhoneBookForm';
 
 import {
   MainSection,
